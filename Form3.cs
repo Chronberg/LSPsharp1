@@ -39,7 +39,8 @@ namespace LSPsharp1
             {
                 con.Open();
                 dataGridView2.AutoGenerateColumns = false;
-                
+                con.Close();
+
             }
         }
 
@@ -56,6 +57,7 @@ namespace LSPsharp1
                 this.dataGridView2.Columns[1].HeaderText = "Телефонный номер";
                 this.dataGridView2.Columns[2].HeaderText = "Адрес";
                 this.dataGridView2.Columns[3].HeaderText = "Место работы";
+                con.Close();
             }
         }
 
@@ -72,6 +74,7 @@ namespace LSPsharp1
                 this.dataGridView2.Columns[1].HeaderText = "Телефонный номер";
                 this.dataGridView2.Columns[2].HeaderText = "Адрес";
                 this.dataGridView2.Columns[3].HeaderText = "Место работы";
+                con.Close();
             }
         }
 
@@ -112,11 +115,13 @@ namespace LSPsharp1
                 {
                     MessageBox.Show("Указана неверная информация");
                 }
-                
+
+                con.Close();
                 
                 
             }
         }
+
     }
 
 }

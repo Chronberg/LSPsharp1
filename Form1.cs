@@ -29,6 +29,7 @@ namespace LSPsharp1
             {
                 connectLabel.Text = "Подключение к ДБ не удалось";
             }
+            con.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)

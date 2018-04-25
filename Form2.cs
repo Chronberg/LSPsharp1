@@ -42,6 +42,7 @@ namespace LSPsharp1
                 DataSet ds = new DataSet();
                 adapter.Fill(ds, "tbl");
                 dataGridView1.DataSource = ds.Tables["tbl"];
+                con.Close();
             }
         }
 
@@ -79,6 +80,7 @@ namespace LSPsharp1
                 {
                     MessageBox.Show("Пожалуйста, заполните все поля");
                 }
+                con.Close();
             }
         }
 
@@ -98,7 +100,9 @@ namespace LSPsharp1
                     {
                         MessageBox.Show("Возникла ошибка");
                     }
+                con.Close();
             }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
