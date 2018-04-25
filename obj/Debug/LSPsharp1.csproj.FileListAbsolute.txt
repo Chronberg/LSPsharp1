@@ -1,0 +1,14 @@
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.csprojResolveAssemblyReference.cache
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.Form1.resources
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.Properties.Resources.resources
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.csproj.GenerateResource.Cache
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.csproj.CoreCompileInputs.cache
+C:\Users\Антон\source\repos\LSPsharp1\bin\Debug\LSPsharp1.exe.config
+C:\Users\Антон\source\repos\LSPsharp1\bin\Debug\LSPsharp1.exe
+C:\Users\Антон\source\repos\LSPsharp1\bin\Debug\LSPsharp1.pdb
+C:\Users\Антон\source\repos\LSPsharp1\bin\Debug\MySql.Data.dll
+C:\Users\Антон\source\repos\LSPsharp1\bin\Debug\MySql.Data.xml
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.exe
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.pdb
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.Form2.resources
+C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.Form3.resources
