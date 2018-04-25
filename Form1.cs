@@ -15,6 +15,7 @@ namespace LSPsharp1
         public Form1()
         {
             InitializeComponent();
+            this.FormClosed += new FormClosedEventHandler(Form1_FormClosed);
         }
 
         MySqlConnection con = new MySqlConnection("server=localhost; database=library; user=root");
@@ -50,5 +51,12 @@ namespace LSPsharp1
             fr3.Show();
             Hide();
         }
+
+
+        void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

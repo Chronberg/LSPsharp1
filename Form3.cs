@@ -16,6 +16,7 @@ namespace LSPsharp1
         public Form3()
         {
             InitializeComponent();
+            this.FormClosed += new FormClosedEventHandler(Form3_FormClosed);
         }
 
 
@@ -121,6 +122,12 @@ namespace LSPsharp1
                 
             }
         }
+
+        void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
 
     }
 

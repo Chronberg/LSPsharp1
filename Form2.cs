@@ -16,6 +16,7 @@ namespace LSPsharp1
         public Form2()
         {
             InitializeComponent();
+            this.FormClosed += new FormClosedEventHandler(Form2_FormClosed);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -111,6 +112,12 @@ namespace LSPsharp1
             txtnum.Text = "";
             txtaddress.Text = "";
             txtwork.Text = "";
+        }
+
+
+        void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -1,4 +1,3 @@
-C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.csprojResolveAssemblyReference.cache
 C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.Form1.resources
 C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.Properties.Resources.resources
 C:\Users\Антон\source\repos\LSPsharp1\obj\Debug\LSPsharp1.csproj.GenerateResource.Cache
